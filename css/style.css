@@ -1,0 +1,484 @@
+/* hi Rocco */
+body { 
+    background-color: #ffffff;
+    color: #2D2D2D;
+    font: 400 normal 1.1em helvetica, arial, sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    color: #E82861;
+
+}
+h1 {
+    font-size: 2.3em;
+}
+h2 {
+    font-size: 2em;
+}
+h3 {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+h4 {
+    font-size: 1em;
+}
+
+strong { 
+    font-weight: 900;
+}
+
+legend {
+   text-align: center;
+   margin-top: 1em;
+   color: #707070;
+}
+
+.list-inline li { 
+    display: inline-block;
+}
+
+.header {
+    background-color: #ffffff;
+    padding-top: 1.5em;
+}
+.logo {
+    width: 7em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -0.5em;
+}
+.shoppingchart { 
+    display: none;
+    margin-left: auto;
+}
+.menubar a {
+    color: #707070;
+    text-decoration: none;    
+}
+
+  
+.menubar a:hover {
+    color: #E82861;
+}
+
+.selected a {
+    color: #E82861;
+    text-decoration: none;    
+}
+
+.menuselector { 
+    display: none;
+    grid-column: 1 / 3;
+    grid-row: 2;
+}
+
+.cube-a:hover, .cube-a:focus {
+    background-image: url("/img/cube-a-2.svg")
+  }
+
+  .cube-b:hover, .cube-b:focus {
+    background-image: url("/img/cube-b-2.svg")
+  }
+  
+  .cube-c:hover, .cube-c:focus {
+    background-image: url("/img/cube-c-2.svg")
+  }
+
+  .cube-d:hover, .cube-d:focus {
+    background-image: url("/img/cube-d-2.svg")
+  }
+
+.menuselector.open, .hamburger:hover + .menuselector {
+    display: block;
+}
+.menugrid {
+    margin-top: -2em;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-gap: 1em;
+    padding: 1em 1em;
+}
+.menugrid img {
+    width: 1.7em;
+}
+.menubutton { 
+    display: inline;
+    margin-right: auto;
+    margin-right: auto;
+}
+.searchbox { 
+    display: none;
+}
+
+.masthead {
+    font-size: 1em;
+    text-align: center;
+    background-color: #ffffff;
+    padding-top: 1em; 
+    padding-bottom: 1em; 
+    border-top: 0.1em solid #707070;
+
+
+
+
+}
+
+
+.mastheadlayout {
+    margin-top: 2em;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1em;  
+}
+
+.masthead p  {
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.stactkboxes {
+    width: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+
+
+
+.box {
+    width: auto;
+  }
+.second {
+    align-self: auto; 
+    margin: auto;
+    max-width: 95%;
+}
+.shoplinkred {
+    border-radius: 0.5em;
+    background-color: #E82861;
+    color: white;
+    margin-top: 0.5em;
+    padding: 0.5em;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 10em;
+    text-transform: uppercase;
+ }
+
+
+.top  {
+    margin-left: auto;
+    margin-right: auto;
+}
+.centered {
+    margin-left: auto;
+    margin-right: auto;
+}
+.shoplinkblack {
+    color: #090909;
+    text-align: center;
+    text-decoration:underline;
+    font-size: 0.9em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.promoted {
+    font-size: 1.2em;
+    text-align: center;
+    padding: 2em;
+    border-radius: 0.5em;
+    border: solid 2px #7A97FF;
+    margin-left: 1em;
+    margin-right: 1em;
+
+}
+.promoted img {
+    max-width: 12em;
+}
+.hidden {
+    display: none;
+}
+
+.green {
+    background-color: #b3fab3;
+}
+.cyan {
+    background-color: #43b1a3;
+}
+.blue {
+    background-color: #b6ddf6;
+}
+
+
+
+.promotedlayout  {
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-gap: 0em; 
+}
+.featuredlayout  {
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-gap: 1em; 
+    margin-top: 0.5em;
+    padding: 1.5em;
+    }
+.featured {
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+    font-size: 1em;
+    text-align: center;
+}
+
+    
+.featuredproduct {
+    margin: 0.1em;
+    background-color: #ffffff;
+    border-radius: 0.5em;
+    padding: 1.5em;
+}
+.featuredproduct img {
+    width: 15em;
+}
+
+.featuredproduct p {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.imgproduct img {
+    width: 80%;
+    max-width: 30em;
+}
+
+.productlayout  {
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-gap: 1em; 
+    padding: 1.5em;
+    }
+
+.textproduct {
+    text-align: left;
+} 
+
+.testimonies {
+    text-align: center;
+}
+.testimonies blockquote {
+    font-size: 1.3em;
+    font-weight: 700;
+    margin-top: 0.6em;
+}
+.testimonies blockquote footer {
+    font-size: 0.9em;
+    font-weight: 500;
+}
+.testimonies blockquote footer::before {
+    content:"-";
+}
+
+.footer {
+    font-size: 0.9em;
+    padding: 2em;
+    color: #7c7c7c;
+    text-align: center;
+} 
+.footer a{
+    text-decoration:none;
+    color: #7c7c7c;
+}   
+.footerhead {
+}  
+
+.footer li { 
+    display: inline;
+}
+
+.limited img{ 
+
+    max-width: 4em;
+
+}
+.uplayout { 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 0em;  
+    align-self: auto ;
+    margin: auto;
+    font-size: 1em; 
+
+
+}
+.downlayout { 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;  
+    align-self: auto ;
+    margin: auto;
+    font-size: 1em;  
+}
+
+.stactkboxes img {
+    width: 3.5em;
+
+}
+
+@media screen and (min-width: 50em) {
+
+    .header {
+                margin-top: -1.5em;
+    }    
+
+.mastheadlayout { 
+    padding-top: 2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1em;  
+    align-self: auto ;
+    margin: auto;
+    font-size: 1em;  
+}
+
+
+.masthead p  {
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.logo {
+    width: 6em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    display: block;
+    margin-left: 1em;
+    margin-right: auto;
+    margin-top: 0.5em;
+}
+
+.menuselector { 
+    display: block;
+    grid-column: 1 / 2;
+    grid-row: 1;
+    margin-left: 7em;
+    font-weight: 700;
+    margin-top: -0.7em;
+}
+.shoppingchart {
+    margin-top: -0.9em;
+}
+.menugrid img {
+    width: 2em;
+}    
+.menuselector li {
+    display: inline-block;
+    margin-top: -1em;
+    padding-left: 0.5em;
+}
+.hamburger {
+    display: none;
+}
+.first {
+    text-align: left;
+}
+.second {
+    max-width: 87%;
+}
+.promoted img {
+    max-width: 13em;
+}
+.featuredlayout  {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+}
+.promotedlayout  {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+.productlayout  {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+
+.first {
+text-align: right;
+}
+.second {
+    max-width: 90%;
+    text-align: left;
+}
+.third {
+    text-align: right;
+} 
+.forth {
+    max-width: 35%;
+    text-align: left;
+    align-self: auto ;
+    margin-top: auto;
+    margin-bottom: auto; 
+}
+.top  {
+    margin-left: unset;
+    margin-right: auto;
+}                            
+}
+
+@media screen and (min-width: 90em) {
+    .mastheadlayout {
+    font-size: 1.3em;   
+    }
+    .promoted img {
+    max-width: 18em;
+    } 
+
+
+}
+
+   .swatches {
+  display: inline-block;
+}
+
+.swatches li {  /* Lineup the list in a single row */
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.product-color {  /* Ensure labels take up the whole element space */
+  display: block;
+  position: relative;
+}
+
+.product-color span { /* Style the squares using the span element */
+  display: block;
+  border: 2px solid transparent;
+  color: transparent;
+  height: 2em;
+  width: 2em;
+  cursor: pointer;
+}
+
+.product-color input {  /* Hide the radio buttons. TRY COMMENTING THESE PROPERTIES! */
+  position: absolute;
+  opacity: 0;
+  /* display: none; */
+}
+    /* Note: The <input> can also be hidden with display:none, but using opacity
+    may make it more accessible, as native devices will ignore a non-displaying
+    element. But opacity may allow native functionality, even if invisible. */
+
+.product-color input:checked + span {  /* When <input> within .product-color is :checked, put a border on the <span> that IMMEDIATELY follows it (+) */
+  border: 2px solid #E82861; 
+}
+    /* Note: This becomes a less obvious managed dependancy. The <span> now
+    must always come immediately after the <input> in the HTML document. The
+    "+" is used to express "the sibling that immediately follows" */
+
+/* Add the colours */
+.product-color.black { background-color: black; }
+.product-color.blue { background-color: dodgerblue; }
+.product-color.white { background-color: white; }
