@@ -81,19 +81,19 @@ strong {
 }
 
 .cube-a:hover, .cube-a:focus {
-    background-image: url("img/cube-a-2.svg")
+    background-image: url("https://antoniovaldivia.github.io/estackt/img/cube-a-2.svg")
 }
 
 .cube-b:hover, .cube-b:focus {
-    background-image: url("img/cube-b-2.svg")
+    background-image: url("https://antoniovaldivia.github.io/estackt/img/cube-b-2.svg")
 }
 
 .cube-c:hover, .cube-c:focus {
-    background-image: url("img/cube-c-2.svg")
+    background-image: url("https://antoniovaldivia.github.io/estackt/img/cube-c-2.svg")
 }
 
 .cube-d:hover, .cube-d:focus {
-    background-image: url("img/cube-d-2.svg")
+    background-image: url("https://antoniovaldivia.github.io/estackt/img/cube-d-2.svg")
 }
 
 .menuselector.open, .hamburger:hover+.menuselector {
