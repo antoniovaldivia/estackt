@@ -80,6 +80,9 @@ strong {
     grid-row: 2;
 }
 
+video {
+    border-radius: 1em;
+}
 .cube-a:hover, .cube-a:focus {
     background-image: url("https://antoniovaldivia.github.io/estackt/img/cube-a-2.svg")
 }
