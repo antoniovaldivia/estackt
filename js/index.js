@@ -1,11 +1,12 @@
-/* hi Rocco */
-function playSound(drums) {
-  document.getElementById(drums).play();
+function playSound(variable) {
+  document.getElementById(variable).play();
+}
+
+function stopSound(variable) {
+  document.getElementById('drums').load();
+  document.getElementById('bass').load();
+  document.getElementById('synths').load();
+  document.getElementById('melodies').load();
+
 };
-function playSound(bass) {
-  document.getElementById(bass).play();
-}; function playSound(synths) {
-  document.getElementById(synths).play();
-}; function playSound(melodies) {
-  document.getElementById(melodies).play();
-};
+
